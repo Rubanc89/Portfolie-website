@@ -1,2 +1,2 @@
-# Portfolie-simple-website
+# Portfolio-simple-website
 My first website 
