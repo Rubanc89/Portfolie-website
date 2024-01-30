@@ -52,7 +52,7 @@ h1 {
     border-bottom: none;
 
 }
-.free__1__first li:last-child{
+ul li:last-child{
 
     border-bottom: 1px soild white;
 
