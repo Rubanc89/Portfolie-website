@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./quizstyle.css">
+  <title>Simple Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Quiz</h1>
+    <form id="quiz-form">
+      <div class="question">
+        <p>1. What is the capital of France?</p>
+        <label>
+          <input type="radio" name="q1" value="paris"> Paris
+        </label>
+        <label>
+          <input type="radio" name="q1" value="london"> London
+        </label>
+        <label>
+          <input type="radio" name="q1" value="berlin"> Berlin
+        </label>
+      </div>
+
+      <div class="question">
+        <p>2. What is the largest planet in our solar system?</p>
+        <label>
+          <input type="radio" name="q2" value="venus"> Venus
+        </label>
+        <label>
+          <input type="radio" name="q2" value="jupiter"> Jupiter
+        </label>
+        <label>
+          <input type="radio" name="q2" value="mars"> Mars
+        </label>
+      </div>
+
+      <div class="question">
+        <p>3. How many continents are there?</p>
+        <label>
+          <input type="radio" name="q3" value="5"> 5
+        </label>
+        <label>
+          <input type="radio" name="q3" value="6"> 6
+        </label>
+        <label>
+          <input type="radio" name="q3" value="7"> 7
+        </label>
+      </div>
+
+      <button type="button" onclick="calculateScore()">Submit</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="./quizscript.js"></script>
+</body>
+</html>

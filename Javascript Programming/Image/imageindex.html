@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./imagestyle.css">
+  <title>Simple Image Gallery</title>
+</head>
+<body>
+  <div class="gallery">
+    <img src="Image1.jpeg" alt="Image 1" onclick="openImage('Image1.jpg')">
+    <img src="Image2.jpeg" alt="Image 2" onclick="openImage('Image2.jpg')">
+    <img src="Image3.jpeg" alt="Image 3" onclick="openImage('Image3.jpg')">
+    <!-- Add more images as needed -->
+
+    <div id="imagePopup" class="popup">
+      <span class="close" onclick="closeImagePopup()">&times;</span>
+      <img id="popupImage" src="" alt="Popup Image">
+    </div>
+  </div>
+
+  <script src="./imagescript.js"></script>
+</body>
+</html>
